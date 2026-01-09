@@ -20,7 +20,8 @@ export const NameModal: React.FC<NameModalProps> = ({ onSave }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm p-4">
-      <div className="w-full max-max-w-md bg-zinc-900 border-2 border-[#39FF14] p-8 rounded-lg shadow-[0_0_30px_rgba(57,255,20,0.3)]">
+      {/* Changed max-w-md to md:w-1/3 and w-full for responsiveness */}
+      <div className="w-full md:w-1/3 min-w-[320px] bg-zinc-900 border-2 border-[#39FF14] p-8 rounded-lg shadow-[0_0_30px_rgba(57,255,20,0.3)]">
         <h2 className="ritual-font text-3xl text-white text-center mb-6 neon-glow uppercase tracking-widest">
           Inscribe Your Name
         </h2>
