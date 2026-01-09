@@ -90,7 +90,7 @@ const App: React.FC = () => {
           <div className="absolute inset-0 opacity-10 pointer-events-none flex items-center justify-center overflow-hidden">
              <img 
                src={SYMBOL_URL} 
-               className="w-[80vw] h-[80vw] max-w-[600px] animate-[spin_60s_linear_infinite] rounded-full blur-sm"
+               className="w-[80vw] h-[80vw] max-w-[600px] max-h-[600px] aspect-square object-cover animate-[spin_60s_linear_infinite] rounded-full blur-sm"
                alt="background ritual"
              />
           </div>
